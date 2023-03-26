@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+fieldset {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+div#contact_form {
+    background-color: whitesmoke;
+    width: 900px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 100px auto; 
+    padding: 10px;
+}
+
+div.input-box {
+    display: flex;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+div.input-box label {
+    display: inline-block;
+    margin: 10px 10px 10px 0;
+    width: 20%;
+}
+
+div.input-box input {
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    padding: 4px 8px;
+    flex: 1;
+}
+
+input.button {
+    font-size: 1.5rem;
+    background: black;
+    color: white;
+    border: 1px solid black;
+    margin: 10px 10px 10px 0px;
+    padding: 4px 40px;
+    transition-duration: 0.3s;
+}
+
+input.button:hover {
+    background-color: rgb(0, 159, 0);
+}
+
+h1 {
+    margin-top: 20%;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 0.8;
+    -webkit-text-stroke: 2px;
+    
+}
+
+div.greetings {
+    margin: 10px 10px 10px 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color:black;
+    text-align: center;
+    font-size: 1.7rem;
+    background-image: url(images/elmore.jpg);
+    background-position: -105px;
+    -webkit-text-fill-color: #ebebeb;
+    -webkit-text-stroke: 1.3px;
+}
+
+div.input-box input.error {
+      border: 2px dashed red;
+      background: #fee;
+}
+
+div.input-box label.error {
+      color: red;
+      font-size: 1rem;
+      text-align: right;
+      width: 100%;
+      margin: 10px 0;
+}
